@@ -1,0 +1,2382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  grid-template-rows: 7rem 3.5rem;
+}
+
+header > nav > a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75rem;
+  display: grid;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin: 1rem;
+  grid-column: 3/4;
+}
+
+.head a {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem;
+  font-size: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+.head a > h1 {
+  margin-left: 0.75rem;
+}
+
+.donate {
+  display: flex;
+  align-self: start;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  background-color: #c1f7d5;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 2rem;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.issue {
+  background-image: url(./assets/annie-spratt-135307-unsplash.png);
+  background-position: 100% 1%;
+}
+
+/*2nd grid*/
+.issue {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 10rem 10rem;
+}
+
+.heading-stop-climate-change {
+  padding-top: 20%;
+  padding-left: 2%;
+
+  font-family: "flood-std";
+  grid-column: 1/3;
+  grid-row: 1/3;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.the-issue-box {
+  background: #283652;
+  z-index: 1;
+  position: absolute;
+  top: 0%;
+  padding: 2% 7%;
+  top: -8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.the-issue-box > p {
+  color: white;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.the-issue {
+  background: white;
+  grid-column: 1/3;
+  grid-row: 2/4;
+  align-self: center;
+  margin-top: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  position: relative;
+}
+.the-issue > .para {
+  color: #283652;
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-bottom: 10%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.the-issue > a {
+  display: flex;
+  color: black;
+  font-size: 0.5rem;
+  justify-content: center;
+  margin-bottom: 5%;
+  color: #283652;
+}
+
+/* 3rd part*/
+
+.take-action {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5rem 5rem;
+  background-color: #c1f7d5;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10%;
+  color: #354463;
+  font: normal normal 300 14px/20px Helvetica;
+}
+
+.container-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  margin-left: -16%;
+}
+.container-1 > h3 {
+  margin-bottom: 10%;
+}
+.container-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  align-self: center;
+}
+.container-2 > h3 {
+  margin-bottom: 10%;
+}
+.container-3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  margin-left: -16%;
+}
+.container-3 > h3 {
+  margin-bottom: 10%;
+}
+.container-4 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.container-4 > h3 {
+  margin-bottom: 10%;
+}
+.take-section-box {
+  background: #283652;
+  z-index: 1;
+  position: absolute;
+  color: white;
+  padding: 2% 7%;
+  top: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font: normal normal normal 14px/17px Helvetica;
+}
+
+/* 4th part */
+
+.what-we-do {
+  background-color: #354463;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 15rem 30rem 30rem 30rem;
+  position: relative;
+}
+
+.our-mission {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  align-self: center;
+  text-align: center;
+  font: normal normal bold 21px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: -5%;
+  margin-top: 10%;
+}
+
+.what-we-do-button {
+  grid-column: 1/3;
+  background: white;
+  color: #283652;
+  z-index: 1;
+  grid-row: 1/2;
+  position: absolute;
+
+  padding: 2% 7%;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  opacity: 1;
+}
+
+/* 2nd part */
+
+.tree {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  background: white;
+  text-align: center;
+  font: normal normal 300 14px/20px Helvetica;
+  color: #354463;
+  opacity: 1;
+  align-self: center;
+  padding: 22%;
+  position: relative;
+  margin: 5%;
+}
+
+.tree p {
+  margin-top: 4%;
+  margin-left: -37%;
+  margin-right: -43%;
+  letter-spacing: 10%;
+}
+.tree h3 {
+  margin-top: 30%;
+  padding: 1%;
+}
+.tree-image {
+  width: 100%;
+  max-width: 204px;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: -17%;
+  left: 10%;
+}
+
+.tree-image img {
+  width: 135%;
+  height: 178px;
+}
+
+.read-more-tree {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #354463;
+  background-color: #c1f7d5;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 1rem;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 0rem;
+  font-weight: bolder;
+  font: normal normal bold 16px/20px Helvetica;
+  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 54%;
+  transform: translateX(-118%);
+  bottom: 9%;
+  padding: 1%;
+}
+
+/* 2nd part of 4thpart */
+
+.education {
+  grid-row: 3/4;
+  grid-column: 1/3;
+  background: white;
+  text-align: center;
+  font: normal normal 300 14px/20px Helvetica;
+  color: #354463;
+  opacity: 1;
+  align-self: center;
+  padding: 22%;
+  position: relative;
+  margin: 5%;
+}
+.edu-image {
+  width: 100%;
+  max-width: 204px;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: -17%;
+  left: 10%;
+}
+.edu-image img {
+  width: 135%;
+  height: 178px;
+}
+
+.education p {
+  margin-top: 4%;
+  margin-left: -37%;
+  margin-right: -43%;
+  letter-spacing: 10%;
+}
+
+.education h3 {
+  margin-top: 30%;
+  padding: 1%;
+}
+
+.read-more-education {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #354463;
+  background-color: #c1f7d5;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 1rem;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 0rem;
+  font-weight: bolder;
+  font: normal normal bold 16px/20px Helvetica;
+  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 54%;
+  transform: translateX(-118%);
+  bottom: 9%;
+  padding: 1%;
+}
+
+/*3rd part of 4th part*/
+
+.advocacy {
+  grid-row: 4/5;
+  grid-column: 1/3;
+  background: white;
+  text-align: center;
+  font: normal normal 300 14px/20px Helvetica;
+  color: #354463;
+  opacity: 1;
+  align-self: center;
+  padding: 22%;
+  position: relative;
+  margin: 5%;
+}
+
+.advocacy-image {
+  width: 100%;
+  max-width: 204px;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: -17%;
+  left: 10%;
+}
+.advocacy-image img {
+  width: 135%; /* Makes the image responsive */
+  height: 178px;
+}
+
+.advocacy p {
+  margin-top: 4%;
+  margin-left: -37%;
+  margin-right: -43%;
+  letter-spacing: 10%;
+}
+
+.advocacy h3 {
+  margin-top: 30%;
+  padding: 1%;
+}
+
+.read-more-advocacy {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #354463;
+  background-color: #c1f7d5;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 1rem;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 0rem;
+  font-weight: bolder;
+  font: normal normal bold 16px/20px Helvetica;
+  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 54%;
+  transform: translateX(-118%);
+  bottom: 9%;
+  padding: 1%;
+}
+
+
+
+/* climate change hunger issue section */
+
+
+.climate-change{
+  width: 100%;
+  padding: 65px 10px;
+  background: url("./assets/did-you-know-background.png");
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+  
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.climate-change>.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.climate-change>.container>.left{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  padding:50px 0px;
+  
+}
+
+.climate-change>.container>.left>h2{
+  font-size: 2.5rem;
+  padding-right: 25%;
+  line-height: 104%;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 50px;
+  text-align: left;
+  font-family: "flood-std";
+  margin-left: 4%;
+  margin-top: -12%;
+}
+
+.climate-change>.container>.left>span{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.climate-change>.container>.left>span>span{
+  width: 166px;
+  height: 40px;
+  background-color: #C1F7D5;
+  border-radius: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-wrap: nowrap;
+  font: normal normal bold 16px/20px Helvetica;
+  color: #354463;
+  padding: 5%;
+    padding-left: 5%;
+  padding-left: 5%;
+  opacity: 1;
+}
+
+.climate-change>.container>.right{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.climate-change>.container>.right>.box4{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #283652;
+  padding:60px 32px;
+  position: relative;
+}
+
+.climate-change>.container>.right>.box4>.did-you-know{
+  position: absolute;
+  top: -22.5px;
+  width: 210px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background: #283652;
+  color: white;
+  text-transform: uppercase;
+  
+}
+
+.climate-change>.container>.right>.box4>.inner-box,
+.climate-change>.container>.right>.box4>.icons{
+  width: 80%;
+  display: flex;
+}
+
+.climate-change>.container>.right>.box4>.inner-box{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+
+.climate-change>.container>.right>.box4>.inner-box>h3{
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.climate-change>.container>.right>.box4>.inner-box>p{
+  text-align: left;
+}
+
+.climate-change>.container>.right>.box4>.icons{
+
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 14px;
+  position: absolute;
+  right: -25%;
+}
+
+.climate-change>.container>.right>.box4>.icons>span{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C1F7D5;
+}
+
+
+
+
+
+/* background-image: url("./assets/iconmonstr-twitter-1.png");
+background-repeat: no-repeat;
+background-position: center; */
+
+
+
+/* section stories */
+
+.stories{
+  display: grid;
+  grid-template-columns: 0.25fr 5fr 0.25fr;
+  grid-template-rows: 25rem 25rem;
+  position: relative;
+}
+
+
+.stories-heading{
+  grid-column: 2/3;
+ grid-row: 2/3;
+  background-color: #354463;
+ 
+  text-align: center;
+font: normal normal bold 22px/28px Helvetica;
+color:white;
+margin-top: 10%;
+}
+
+.stories-heading h3{
+  margin-top: 13%;
+  letter-spacing: -4%;
+  line-height: 126%;
+}
+
+.stories-heading p{
+  text-align: center;
+font: normal normal normal 11px/13px Helvetica;
+letter-spacing: 0.44px;
+color: #FFFFFF;
+opacity: 1;
+margin-top: 16%;
+}
+
+
+.lady-image{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-image: url("./assets/lady-baby.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 20%;
+}
+
+.stories-button{
+
+background: #354463 ;
+opacity: 1;
+text-align: center;
+font: normal normal normal 14px/17px Helvetica;
+letter-spacing: 0.56px;
+color: #FFFFFF;
+opacity: 1;
+z-index: 1;
+grid-column: 2/3;
+grid-row: 1/2;
+
+margin-bottom: 92%;
+  margin-left: 31%;
+  margin-right: 28%;
+  position: absolute;
+  padding: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+  margin-top: 14%;
+  padding-right: 10%;
+  padding-left: 10%;
+
+}
+
+.read-more-stories {
+grid-column: 2/3;
+grid-row: 2/3;
+  padding: 3%;
+ 
+  
+  padding-right: 10%;
+  padding-left: 10%;
+ 
+  justify-content: center;
+  text-decoration: none;
+  color: #354463;
+  background-color: #c1f7d5;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 1rem;
+  text-align: center;
+  font-weight: bolder;
+  font: normal normal bold 16px/20px Helvetica;
+  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: -30%;
+  left: 38%;
+  transform: translateX(-30%);
+}
+
+
+
+/* 4thpart end */
+
+/*empty section*/
+
+.empty{
+  display: grid;
+  grid-template-rows: 10rem;
+}
+
+/*5th part section-action*/
+
+.action{
+  display: grid;
+  grid-template-columns: 2.5rem 1fr 2.5rem;
+  grid-template-rows: 18rem 20rem 20rem 20rem 20rem;
+  background-color: #283652;
+  color:white;
+}
+
+
+.action-heading{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  align-self: center;
+  font-size: 2.5rem;
+  padding-right: 25%;
+  line-height: 104%;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "flood-std";
+  margin-left: 5%;
+  margin-right: -16%;
+  margin-top: 15%;
+}
+
+.plant-and-event-button{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-image: url("./assets/tree-planting.png");
+  width: 100%;
+  max-width: 338px;
+  margin-bottom: 0rem;
+  margin-left: 0%;
+  background-size: 119%;
+  margin-right: 0%;
+  background-repeat: no-repeat;
+  margin-top: 10%;
+}
+
+.event{
+  background:  white;
+opacity: 1;
+text-align: center;
+font: normal normal normal 14px/17px Helvetica;
+letter-spacing: 0.56px;
+color: #354463;
+opacity: 1;
+z-index: 1;
+grid-column: 2/3;
+grid-row: 2/3;
+
+margin-bottom: 92%;
+  margin-left: 31%;
+  margin-right: 28%;
+  padding: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+  margin-top: -5%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+
+
+
+
+
+
+.earth-1{
+
+  grid-column: 2/3;
+  grid-row: 3/4;
+  text-align: center;
+  font: normal normal 300 14px/20px Helvetica;
+  color: white;
+  opacity: 1;
+  align-self: center;
+  padding: 0%;
+  position: relative;
+  margin: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.earth-1 h3{
+  text-align: center;
+font: normal normal bold 22px/28px Helvetica;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-left: 10%;
+margin-left: 1%;
+  margin-top: 0%;
+  margin-bottom: 9%;
+  margin-right: 0%;
+}
+
+.earth-1 p{
+  margin-left: 10%;
+margin-left: 1%;
+  margin-top: 0%;
+  margin-bottom: 9%;
+  margin-right: 0%;
+}
+
+.read-more-earth{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  padding: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+  padding-right: 0%;
+  padding-left: 0%;
+  justify-content: center;
+  text-decoration: none;
+  color: #354463;
+  background-color: #c1f7d5;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 1rem;
+  text-align: center;
+  font-weight: bolder;
+  font: normal normal bold 16px/20px Helvetica;
+    font-family: Helvetica;
+  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: -30%;
+  left: 38%;
+  transform: translateX(-17%);
+  margin-left: 34%;
+}
+
+.plant-and-latest-news-button{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  background-image: url("./assets/meeting.png");
+  width: 100%;
+  max-width: 338px;
+  margin-bottom: 0rem;
+  margin-left: 0%;
+  background-size: 119%;
+  margin-right: 0%;
+  background-repeat: no-repeat;
+  margin-top: 10%;
+}
+
+.news-event{
+  background: white;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 15px/17px Helvetica;
+  letter-spacing: -0.44px;
+  color: #354463;
+  opacity: 1;
+  z-index: 1;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  margin-bottom: 92%;
+  margin-left: 25%;
+  margin-right: 23%;
+  padding: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+  margin-top: -5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: center;
+}
+
+.earth-2{
+  grid-column: 2/3;
+  text-align: center;
+  font: normal normal 300 14px/20px Helvetica;
+  color: white;
+  opacity: 1;
+  align-self: center;
+  padding: 0%;
+  position: relative;
+  margin: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.earth-2 h3{
+  text-align: center;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 10%;
+  margin-left: 1%;
+    margin-top: 0%;
+    margin-bottom: 9%;
+    margin-right: 0%;
+}
+
+.earth-2 p{
+  margin-left: 10%;
+margin-left: 1%;
+  margin-top: 0%;
+  margin-bottom: 9%;
+  margin-right: 0%;
+}
+/* 
+section subscribe */
+
+.subscribe{
+  width: 100%;
+  padding: 70px 0;
+  background:#b3ffd4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscribe>.heading{
+  width: 95%;
+  margin: 10px auto 20px auto;
+  font-size: 1.2rem;
+  color: #283652;
+}
+
+.subscribe>.form{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.subscribe>.form>input{
+  width: 58%;
+  height: 40px;
+  border-radius: 30px;
+  border: 0;
+  padding:10px 20px 10px 30px;
+  margin-right: 44%;
+  margin-top: 10%;
+}
+
+.subscribe>.form>button{
+  width: 39%;
+  height: 40px;
+  border-radius: 30px;
+  border: 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+  background-color: #283652;
+  color: white;
+  margin-right: -60%;
+  margin-top: -11%;
+}
+
+
+/*Last part of section*/
+
+.footer{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 13rem 13rem 13rem;
+
+}
+
+.heading{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  text-align: left;
+  font: normal normal bold 15px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  align-self: center;
+  margin-left: 10%;
+  margin-top: 0%;
+  margin-right: 18%;
+}
+
+
+.contact-us{
+  
+  text-align: left;
+font: normal normal normal 13px/15px Helvetica;
+letter-spacing: 0.44px;
+color: #354463;
+opacity: 1;
+align-self: center;
+
+}
+
+.contact-us ul{
+  list-style-type: none;
+ 
+  line-height: 150%;
+}
+.contact-us-heading{
+  margin-bottom: 3%;
+}
+
+.follow-us{
+  text-decoration: none;
+  text-align: left;
+font: normal normal normal 13px/15px Helvetica;
+letter-spacing: 0.44px;
+color: #354463;
+opacity: 1;
+align-self: center;
+margin-left: 10%;
+margin-top: 0%;
+margin-right: 18%;
+}
+.follow-us ul{
+  list-style-type: none;
+  text-decoration: underline;
+  line-height: 150%;
+}
+.follow-us-heading{
+  margin-bottom: 3%;
+}
+
+
+.learn-more{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-decoration: none;
+  text-align: left;
+font: normal normal normal 13px/15px Helvetica;
+letter-spacing: 0.44px;
+color: #354463;
+opacity: 1;
+align-self: center;
+}
+
+.learn-more ul{
+  list-style-type: none;
+  text-decoration: underline;
+  line-height: 150%;
+}
+
+.learn-more-heading{
+  margin-bottom: 3%;
+}
+
+
+.stop-climate-change{
+  grid-row: 3/4;
+  grid-column: 2/3;
+  padding-top: 20%;
+  padding-left: 2%;
+  font-family: "flood-std";
+  color: #354463;
+  font-size: 2.5rem;
+ 
+}
+
+
+
+.owner{
+  grid-column: 1/3;
+  grid-row: 3/4;
+  text-decoration: none;
+  text-align: left;
+font: normal normal normal 13px/15px Helvetica;
+letter-spacing: 0.44px;
+color: #354463;
+opacity: 1;
+  text-decoration: underline;
+  align-self: center;
+  margin-bottom: -42%;
+}
+
+
+
+
+
+
+@media screen and (min-width: 490px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 1fr;
+    grid-template-rows: 4rem 2rem;
+  }
+  nav {
+    grid-column: 1/3;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    align-self: start;
+    grid-row: 2/3;
+  }
+
+  .donate {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-self: center;
+    padding: 2% 3%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bolder;
+    color: #354463;
+  }
+
+  /*2nd grid*/
+  .issue {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 10rem 10rem;
+    margin-top: 5%;
+  }
+  .heading-stop-climate-change {
+    padding: 12% 16% 12% 2%;
+    font-family: "flood-std";
+    font-size: 4rem;
+    color: white;
+    align-items: center;
+  }
+  .the-issue {
+    background: white;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    align-self: center;
+    margin-top: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    position: relative;
+  }
+  .the-issue > .para {
+    color: #283652;
+    margin-top: 15%;
+    margin-left: 4%;
+    margin-bottom: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .the-issue > a {
+    display: flex;
+    color: black;
+    font-size: 0.9rem;
+    justify-content: center;
+    margin-bottom: 10%;
+    color: #283652;
+    margin-left: -12%;
+    margin-bottom: 15%;
+  }
+
+  .the-issue-box {
+    background: #283652;
+    z-index: 1;
+    position: absolute;
+    top: 0%;
+    padding: 2% 7%;
+    top: -5%;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+
+  /*3rd part*/
+  .take-action {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5rem 5rem;
+    background-color: #c1f7d5;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10%;
+    color: #354463;
+    font: normal normal 300 14px/20px Helvetica;
+  }
+
+  .container-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    margin-left: -16%;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+  .container-1 > h3 {
+    font: normal normal bold 22px/28px Helvetica;
+    margin-bottom: 10%;
+  }
+  .container-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+  .container-2 > h3 {
+    margin-bottom: 10%;
+    font: normal normal bold 22px/28px Helvetica;
+  }
+  .container-3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: -16%;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+  .container-3 > h3 {
+    margin-bottom: 10%;
+    font: normal normal bold 22px/28px Helvetica;
+  }
+  .container-4 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+  .container-4 > h3 {
+    margin-bottom: 10%;
+    font: normal normal bold 22px/28px Helvetica;
+  }
+  .take-section-box {
+    background: #283652;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    padding: 2% 7%;
+    top: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font: normal normal normal 14px/17px Helvetica;
+  }
+
+  /* section what we d0(4th part) */
+
+  /* /1st part */
+
+  .our-mission {
+    text-align: start;
+    font: normal normal bold 26px/34px Helvetica;
+    margin: 11%;
+    margin-top: 11%;
+    margin-top: 30%;
+  }
+
+  .what-we-do-button {
+    color: #283652;
+    padding: 2% 7%;
+    top: 15%;
+    left: 19%;
+    transform: translateX(-24%);
+    text-align: end;
+    font: normal normal normal 14px/17px Helvetica;
+  }
+  .tree {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 1fr;
+    grid-template-rows: 10rem 10rem;
+    padding: 0%;
+    padding-bottom: 0%;
+    padding-bottom: 3%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin: 2%;
+  }
+  .tree h3 {
+    font: normal normal bold 22px/28px Helvetica;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-top: 3%;
+    text-align: left;
+  }
+
+  .tree > p {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .tree-image {
+    width: 35%;
+    max-width: 248px;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: -9%;
+    left: -13%;
+  }
+
+  .tree-image img {
+    width: 135%; /* Makes the image responsive */
+    height: 178px; /* Maintains aspect ratio */
+    position: absolute;
+  }
+
+  .tree p {
+    margin-top: 52%;
+    margin-left: -48%;
+    margin-right: 0%;
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+
+  .read-more-tree {
+    transform: translateX(-108%);
+    left: 39%;
+    padding: 1% 4%;
+    bottom: 24%;
+  }
+
+  /* 2nd part  of 4th part*/
+
+  /*2nd part of 4th*/
+  .education {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 1fr;
+    grid-template-rows: 10rem 10rem;
+    padding: 0%;
+    padding-bottom: 0%;
+    padding-bottom: 3%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin: 2%;
+  }
+
+  .edu-image {
+    width: 35%;
+    max-width: 248px;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: -9%;
+    left: -13%;
+  }
+  .edu-image img {
+    width: 135%; /* Makes the image responsive */
+    height: 178px; /* Maintains aspect ratio */
+    position: absolute;
+  }
+  .education p {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 52%;
+    margin-left: -48%;
+
+    margin-right: 0%;
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+  .education h3 {
+    font: normal normal bold 22px/28px Helvetica;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-top: 3%;
+    text-align: left;
+  }
+  .read-more-education {
+    transform: translateX(-108%);
+    left: 39%;
+    padding: 1% 4%;
+    bottom: 24%;
+  }
+
+  /* part 3 of part 4 */
+  .advocacy {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 1fr;
+    grid-template-rows: 10rem 10rem;
+    padding: 0%;
+    padding-bottom: 0%;
+    padding-bottom: 3%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin: 2%;
+  }
+
+  .advocacy-image {
+    width: 35%;
+    max-width: 248px;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: -9%;
+    left: -13%;
+  }
+  .advocacy-image img {
+    width: 135%; /* Makes the image responsive */
+    height: 178px; /* Maintains aspect ratio */
+    position: absolute;
+  }
+
+  .advocacy p {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 52%;
+    margin-left: -48%;
+    margin-right: 0%;
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+
+  .advocacy h3 {
+    font: normal normal bold 22px/28px Helvetica;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-top: 3%;
+    text-align: left;
+  }
+
+  .read-more-advocacy {
+    transform: translateX(-108%);
+    left: 39%;
+    padding: 1% 4%;
+    bottom: 24%;
+  }
+
+/* section climate change is hunger issue */
+.climate-change{
+  background-position: 16%;
+}
+.climate-change>.container{
+  max-width: 660px; 
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.climate-change>.container>.left{
+  width: 30%;
+  padding: 40px 0px 0px 0px; 
+}
+
+.climate-change>.container>.right{
+  width: 60%;
+}
+
+.climate-change>.container>.right>.box4{
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.climate-change>.container>.right>.box4>.did-you-know{
+ left: 32px;
+}
+
+.climate-change>.container>.right>.box4>.inner-box{
+  width: 70%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.climate-change>.container>.right>.box4>.inner-box>h3{
+  font-size: 1.8rem;
+}
+
+.climate-change>.container>.right>.box4>.inner-box>p{
+  text-align: start;
+}
+
+.climate-change>.container>.right>.box4>.icons{
+  width: 20%;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.climate-change>.container>.right>.box4>.icons{
+
+  right: 5%;
+    height: 34%;
+}
+
+
+
+
+
+/* section stories */
+
+.stories{
+  display: grid;
+  grid-template-columns: 0.25fr 5fr 0.25fr;
+  grid-template-rows: 40rem 25rem;
+  position: relative;
+}
+
+.lady-image{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 20%;
+  background-size: 100%;
+  margin-right: 13%;
+}
+
+.stories-button{
+  margin-left: 7%;
+}
+
+.stories-heading{
+  margin-top: -9%;
+  width: 87%;
+  margin-left: 10%;
+  margin-bottom: 20%;
+  text-align: left;
+}
+
+.stories-heading h3{
+  line-height: 120%;
+  margin-left: 10%;
+  margin-right: 4%;
+}
+
+.stories-heading p{
+  margin-top: 8%;
+  margin-left: -43%;
+}
+.read-more-stories{
+  padding-right: 7%;
+  padding-left: 7%;
+  bottom: 6%;
+  left: 20%;
+}
+
+
+/*5th part section-action*/
+
+.action{
+
+  grid-template-columns: 2.5rem 1fr 1fr 2.5rem;
+  grid-template-rows: 18rem 30rem 30rem ;
+
+}
+
+.action-heading{
+  grid-column: 2/4;
+  grid-row: 1/2;
+  align-self: left;
+  text-align: left;
+}
+
+.plant-and-event-button{
+  background-repeat: no-repeat;
+  max-width: 293px;
+}
+
+.event{
+  grid-column: 3/4;
+  margin-left: 124%;
+  margin-right: -61%;
+  margin-top: 0%;
+  
+}
+
+
+.earth-1{
+    grid-column: 3/4;
+  grid-row: 2/3;
+  text-align: left;
+}
+.earth-1 p{
+  line-height: 157%;
+  text-align: left;
+}
+.earth-1 h3{
+  text-align: left;
+  line-height: 150%;
+  margin-left: 10%;
+}
+
+
+
+.plant-and-latest-news-button{
+grid-column: 3/4;
+grid-row: 3/4;
+background-repeat: no-repeat;
+max-width: 293px;
+}
+
+
+.news-event{
+  margin-right: 124%;
+  margin-left: -61%;
+  margin-top: 0%;
+}
+
+
+
+.earth-2{
+  grid-column: 2/3;
+grid-row: 3/4;
+
+}
+
+.earth-2 p{
+  line-height: 157%;
+  text-align: left;
+  margin-left: -5%;
+  margin-top: 0%;
+  margin-bottom: 9%;
+  margin-right: 0%;
+}
+.earth-2 h3{
+  text-align: left;
+  line-height: 150%;
+  margin-left: -3%;
+  margin-right: 10%;
+}
+
+
+
+/* subscribe section*/
+
+.subscribe{
+  justify-content: center;
+}
+
+.subscribe>.heading {
+  max-width: 660px;
+}
+
+.subscribe>.heading>h3{
+  font-size: 2rem;
+  line-height: 110%;
+  margin-bottom: 20px;
+}
+
+.subscribe>.form{
+  max-width: 660px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.subscribe>.form>input{
+  width: 50%;
+  height: 48px;
+}
+
+.subscribe>.form>button{
+  width: 25%;
+    height: 48px;
+  margin-right: -7%;
+  margin-left: -31%;
+  margin-top: 10%;
+}
+
+
+
+
+/*Last section footer*/
+
+.footer{
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 13rem 13rem ;
+}
+
+.heading{
+  font: normal normal bold 15px/22px Helvetica;
+}
+
+.stop-climate-change{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*end of tablet*/
+}
+
+/*laptop*/
+
+@media screen and (min-width: 1000px) {
+  header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 5rem 6rem;
+  }
+  nav {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    display: flex;
+    gap: 3rem;
+  }
+  header > nav > a {
+    font-size: 0.85rem;
+  }
+  .head a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 0.65rem;
+  }
+  .donate {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-self: center;
+  }
+
+  /*2nd grid*/
+  .issue {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10rem 10rem 10rem;
+    margin-top: -5%;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+  }
+  .heading-stop-climate-change {
+    font-family: "flood-std";
+    grid-column: 2/3;
+    font-size: 5rem;
+    color: white;
+    align-items: center;
+    align-self: center;
+    margin-top: 40%;
+    margin-left: 20%;
+  }
+  .the-issue {
+    background: white;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    align-self: center;
+    margin-top: 60%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20%;
+    position: relative;
+  }
+
+  .the-issue > .para {
+    color: #283652;
+    margin-left: 4%;
+    margin-bottom: 10%;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .the-issue-box {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    margin-left: 10%;
+    top: -5%;
+  }
+
+  .the-issue > a {
+    display: flex;
+    color: black;
+    font-size: 0.9rem;
+    justify-content: center;
+    margin-bottom: 10%;
+    color: #283652;
+    margin-left: -12%;
+    margin-bottom: 15%;
+  }
+  /* 3rd part here*/
+
+  .take-action {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 3rem;
+    padding-bottom: 0%;
+    background-color: #c1f7d5;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #354463;
+    font: normal normal 300 14px/20px Helvetica;
+  }
+  .container-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    margin-left: -36%;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+  .container-1 > h3 {
+    font: normal normal bold 28px/36px Helvetica;
+  }
+  .container-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+  .container-2 > h3 {
+    margin-left: 7%;
+    margin-top: 10%;
+
+    font: normal normal bold 22px/28px Helvetica;
+  }
+  .container-3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-left: 10%;
+    font: normal normal 300 16px/24px Helvetica;
+  }
+  .container-3 > h3 {
+    margin-bottom: 10%;
+    font: normal normal bold 22px/28px Helvetica;
+  }
+  .container-4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-right: 20%;
+    font: normal normal 300 16px/24px Helvetica;
+    margin-left: 23%;
+  }
+  .container-4 > h3 {
+    margin-bottom: 10%;
+    font: normal normal bold 22px/28px Helvetica;
+  }
+
+  /*Laptop ends here*/
+  /* 4th part */
+
+  .what-we-do {
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 0.3fr;
+    grid-template-rows: 15rem 40rem;
+  }
+
+  .what-we-do-button {
+    grid-column: 2/3;
+    margin-left: -8%;
+  }
+
+  .our-mission {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    align-items: start;
+    margin-left: 0%;
+    margin-top: 10%;
+    font: normal normal bold 28px/36px Helvetica;
+  }
+
+  .tree {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 0%;
+    text-align: center;
+    font: normal normal 300 14px/20px Helvetica;
+    color: #354463;
+    opacity: 1;
+    align-self: center;
+    padding: 32%;
+    position: relative;
+    margin: 0%;
+    margin-left: -19%;
+    margin-right: 27%;
+   
+  }
+  .tree p {
+    margin-top: 156%;
+    margin-left: -69%;
+    margin-right: -48%;
+    letter-spacing: 0%;
+  }
+
+  .tree h3 {
+    font: normal normal bold 20px/30px Helvetica;
+    grid-row: 1/2;
+    text-align: left;
+    margin-top: 56%;
+    padding: 0%;
+    margin-left: -67%;
+  }
+
+  .tree-image {
+    width: 35%;
+    max-width: 248px;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: -9%;
+    left: -13%;
+  }
+
+  .tree-image img {
+    width: 308%;
+    height: 167px;; /* Maintains aspect ratio */
+    position: absolute;
+  }
+  .read-more-tree {
+    transform: translateX(-108%);
+    left: 39%;
+    padding: 1% 4%;
+    bottom: 7%;
+  }
+
+
+  .education{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-top: 0%;
+    text-align: center;
+    font: normal normal 300 14px/20px Helvetica;
+    color: #354463;
+    opacity: 1;
+    align-self: center;
+    padding: 32%;
+    position: relative;
+    margin: 0%;
+    margin-left: -4%;
+    margin-right:5%;
+  }
+
+
+
+  .education p{
+    margin-top: 156%;
+    margin-left: -69%;
+    margin-right: -48%;
+    letter-spacing: 0%;
+  }
+
+  .education h3{
+    font: normal normal bold 20px/30px Helvetica;
+    grid-row: 1/2;
+    text-align: left;
+    margin-top: 56%;
+    padding: 0%;
+    margin-left: -67%;
+  }
+
+
+.edu-image{
+  width: 35%;
+  max-width: 248px;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: -9%;
+  left: -13%;
+}
+
+.edu-image img{
+  width: 308%;
+  height: 167px;; /* Maintains aspect ratio */
+  position: absolute;
+
+}
+
+
+.read-more-education{
+  transform: translateX(-108%);
+    left: 39%;
+    padding: 1% 4%;
+    bottom: 7%;
+}
+
+
+.advocacy{
+  grid-column: 4/5;
+  grid-row: 2/3;
+    margin-top: 0%;
+    text-align: center;
+    font: normal normal 300 14px/20px Helvetica;
+    color: #354463;
+    opacity: 1;
+    align-self: center;
+    padding: 32%;
+    position: relative;
+    margin: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-left: 14%;
+    margin-right: 5%;
+}
+
+.advocacy p{
+  margin-top: 156%;
+    margin-left: -69%;
+    margin-right: -48%;
+    letter-spacing: 0%;
+}
+
+
+
+.advocacy h3{
+  font: normal normal bold 20px/30px Helvetica;
+    grid-row: 1/2;
+    text-align: left;
+    margin-top: 56%;
+    padding: 0%;
+    margin-left: -67%;
+}
+
+.advocacy-image{
+  width: 35%;
+  max-width: 248px;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: -9%;
+  left: -13%;
+}
+
+.advocacy-image img{
+  width: 308%;
+  height: 167px;; /* Maintains aspect ratio */
+  position: absolute;
+}
+
+
+.read-more-advocacy{
+  transform: translateX(-108%);
+  left: 39%;
+  padding: 1% 4%;
+  bottom: 7%;
+}
+
+/* section climate change  */
+.climate-change{
+  padding: 130px 10px;
+}
+
+.climate-change>.container{
+  width: 100%;
+  max-width: 1140px;
+  flex-direction: row;
+  align-items: start;
+  padding-bottom: 0;
+}
+
+.climate-change>.container>.left{
+  width: 50%;
+  justify-content: space-evenly;
+  padding-bottom: 0;
+}
+
+.climate-change>.container>.left>h2{
+  font-size: 4rem;
+}
+.climate-change>.container>.right{
+  width: 50%;
+}
+
+.climate-change>.container>.right>.box4{
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  padding-left: 10%;
+}
+
+.climate-change>.container>.right>.box4>.did-you-know{
+  left: 10%;
+}
+
+.climate-change>.container>.right>.box4>.inner-box{
+  width: 70%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.climate-change>.container>.right>.box4>.inner-box>h3{
+  padding-bottom: 20px;
+}
+
+.climate-change>.container>.right>.box4>.icons{
+  width: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.climate-change>.container>.right>.box4>.inner-box>h3{
+  font-size: 2.5rem;
+}
+
+.climate-change>.container>.right>.box4>.inner-box>p{
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+
+/* section stories */
+.stories{
+  grid-template-columns: 0.25fr 1fr 1fr 0.25fr;
+  grid-template-rows: 15rem 15rem;
+  
+}
+
+
+.lady-image{
+  grid-column: 3/4;
+  grid-row: 1/3;
+
+}
+
+.stories-button{
+  grid-column: 3/4;
+  grid-row: 1/3;
+
+}
+
+.stories-heading{
+  grid-row: 1/3;
+  margin-top: 34%;
+    width: 109%;
+    margin-left: -2%;
+    margin-bottom: 23%;
+    text-align: left;
+}
+
+.stories-heading h3{
+  margin-top: 4%;
+  letter-spacing: -7%;
+};
+
+
+/*action*/
+.action{
+
+  grid-template-columns: 2.5rem 1fr 1fr 2.5rem;
+  grid-template-rows: 18rem 45rem 45rem ;
+
+}
+
+.plant-and-event-button {
+grid-column: 2/3;
+grid-row: 2/3;
+background-image: url("./assets/tree-planting.png");
+background-repeat: no-repeat;
+  max-width: 555px;
+width: 129%;
+margin-bottom: 0rem;
+margin-left: 0%;
+background-size: 112%;
+margin-right: 10%;
+background-repeat: no-repeat;
+margin-top: 0%;
+}
+.event{
+  margin-left: 110%;
+    margin-right: -37%;
+}
+
+.earth-1 p{
+  margin-left: 10%;
+}
+.earth-1{
+  align-self: left;
+  font:normal normal 300 20px/32px Helvetica;
+}
+
+
+.earth-1 h3{
+  font: normal normal bold 44px/56px Helvetica;
+    line-height: 56px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 10%;
+  margin-left: 1%;
+  margin-top: -14%;
+  margin-bottom: 9%;
+  margin-right: 0%;
+  text-align: left;
+    line-height: 100%;
+    margin-left: 10%;
+}
+.read-more-earth{
+transform: translateX(-209%);
+margin-left: 71%;
+border-radius: 3rem;
+}
+
+
+
+.plant-and-latest-news-button{
+
+background-repeat: no-repeat;
+  max-width: 555px;
+width: 129%;
+margin-bottom: 0rem;
+margin-left: 0%;
+background-size: 112%;
+margin-right: 10%;
+background-repeat: no-repeat;
+margin-top: 0%;
+}
+
+.news-event{
+  margin-left: 110%;
+    margin-right: -37%;
+}
+
+.plant-and-latest-news-button{
+
+margin-left: 10%;
+
+}
+
+.earth-2 p{
+  margin-left: 10%;
+}
+.earth-2{
+  align-self: left;
+  font:normal normal 300 20px/32px Helvetica;
+}
+
+
+.earth-2 h3{
+  font: normal normal bold 44px/56px Helvetica;
+    line-height: 56px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 10%;
+  margin-left: 1%;
+  margin-top: -14%;
+  margin-bottom: 9%;
+  margin-right: 0%;
+  text-align: left;
+    line-height: 100%;
+    margin-left: 10%;
+}
+.news-event {
+  margin-left: -96%;
+  margin-right: 157%;
+}
+
+
+
+
+
+
+
+/*section subscribe*/
+.subscribe{
+  flex-direction: row;
+  justify-content: center;
+}
+
+.subscribe>.heading {
+  width: 50%;
+  max-width: 570px;
+  margin: 10px 0 20px 0;
+}
+
+.subscribe>.heading>h3{
+  font-size: 1.8rem;
+  line-height: 110%;
+  padding: 0 5px;
+  padding-right: 10%;
+}
+
+.subscribe>.form{
+  width: 50%;
+  max-width: 570px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.subscribe>.form>input{
+  width: 50%;
+  height: 48px;
+  margin: 0px 30px 0px 0px;
+}
+
+.subscribe>.form>button{
+  width: 25%;
+  height: 48px;
+  margin-left: 10%;
+    margin-top: 0%;
+}
+
+/*Last section footer*/
+
+.footer{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.heading{
+  grid-row: 1/3;
+}
+
+.contact-us{
+  grid-row: 1/3;.footer{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  
+  .heading{
+    grid-row: 1/3;
+  }
+  
+  .contact-us{
+    grid-row: 1/3;
+    grid-column: 2/3;
+  }
+  
+  
+  .follow-us{
+    grid-row: 1/3;
+    grid-column: 4/5;
+  }
+  
+  
+  .learn-more{
+    grid-row: 1/3;
+    grid-column: 3/4;
+  }
+  
+  
+  .stop-climate-change{
+    grid-row: 1/3;
+    grid-column: 5/6;
+  }
+  
+  grid-column: 2/3;
+}
+
+
+.follow-us{
+  grid-row: 1/3;
+  grid-column: 4/5;
+}
+
+
+.learn-more{
+  grid-row: 1/3;
+  grid-column: 3/4;
+}
+
+
+.stop-climate-change{
+  grid-row: 1/3;
+  grid-column: 5/6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of desktop */
+}
