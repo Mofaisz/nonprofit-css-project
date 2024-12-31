@@ -32,9 +32,10 @@ nav {
 .head a {
   font-family: Arial, Helvetica, sans-serif;
   margin: 2rem;
-  font-size: 0.5rem;
+  font-size: 0.60rem;
   text-decoration: none;
-  color: black;
+  color: #354463;
+  
 }
 .head a > h1 {
   margin-left: 0.75rem;
@@ -59,7 +60,9 @@ nav {
 
 .issue {
   background-image: url(./assets/annie-spratt-135307-unsplash.png);
-  background-position: 100% 1%;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*2nd grid*/
@@ -1722,11 +1725,12 @@ grid-row: 3/4;
   .issue {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 10rem 10rem 10rem;
+    grid-template-rows: 13rem 13rem 13rem;
     margin-top: -5%;
     justify-content: center;
     align-content: center;
     background-repeat: no-repeat;
+    background-color: #283652;
   }
   .heading-stop-climate-change {
     font-family: "flood-std";
@@ -2136,6 +2140,12 @@ grid-row: 3/4;
   grid-template-columns: 2.5rem 1fr 1fr 2.5rem;
   grid-template-rows: 18rem 45rem 45rem ;
 
+}
+
+.action-heading{
+  grid-column: 2/3;
+    grid-row: 1/2;
+    font: normal normal normal 55px/60px "flood-std";
 }
 
 .plant-and-event-button {
