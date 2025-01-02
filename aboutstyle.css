@@ -633,11 +633,11 @@ grid-row: 5/6;
 
   grid-column: 2/3;
   grid-row: 1/2;
-  font: normal normal normal 34px/38px "flood-std";
+  font: normal normal normal 31px/34px "flood-std";
   align-self: center;
   text-align: center;
   color:white;
-line-height: 140%;
+line-height: 129%;
 letter-spacing: 2%;
 
 }
@@ -691,7 +691,7 @@ letter-spacing: 2%;
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 7%;
-  margin-top: 18%;
+  margin-top: 5%;
 }
 
 
@@ -703,17 +703,15 @@ letter-spacing: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.1rem;
-  font-weight: 600;
+
   text-wrap: nowrap;
   font: normal normal bold 16px/20px Helvetica;
   color: #354463;
   padding: 5%;
-    padding-left: 5%;
   padding-left: 5%;
-  padding-left: 5%;
+
   opacity: 1;
-  margin-left: 26%;
+  margin-left: 15%;
   margin-top: 6%;
 }
 
@@ -896,7 +894,8 @@ align-self: center;
   padding-left: 2%;
   font-family: "flood-std";
   color: #354463;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  margin-top: 40%;
  
 }
 
