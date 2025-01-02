@@ -252,7 +252,7 @@ nav {
   letter-spacing: 10%;
 }
 .tree h3 {
-  margin-top: 30%;
+  margin-top: 41%;
   padding: 1%;
 }
 .tree-image {
@@ -265,7 +265,7 @@ nav {
 }
 
 .tree-image img {
-  width: 135%;
+  width: 100%;
   height: 178px;
 }
 
@@ -278,7 +278,7 @@ nav {
   border: 0.2rem solid #c1f7d5;
   border-radius: 1rem;
   text-align: center;
-  margin-left: 3rem;
+  margin-left: 0rem;
   margin-right: 0rem;
   font-weight: bolder;
   font: normal normal bold 16px/20px Helvetica;
@@ -286,9 +286,10 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   left: 54%;
-  transform: translateX(-118%);
-  bottom: 9%;
+  transform: translateX(-62%);
+  bottom: 4%;
   padding: 1%;
+
 }
 
 /* 2nd part of 4thpart */
@@ -315,8 +316,8 @@ nav {
   left: 10%;
 }
 .edu-image img {
-  width: 135%;
-  height: 178px;
+  width: 100%;
+  height: 100%;
 }
 
 .education p {
@@ -332,7 +333,7 @@ nav {
 }
 
 .read-more-education {
-  display: flex;
+ display: flex;
   justify-content: center;
   text-decoration: none;
   color: #354463;
@@ -340,18 +341,19 @@ nav {
   border: 0.2rem solid #c1f7d5;
   border-radius: 1rem;
   text-align: center;
-  margin-left: 3rem;
-  margin-right: 0rem;
+  margin-left: 0rem;
   font-weight: bolder;
   font: normal normal bold 16px/20px Helvetica;
+    font-family: Helvetica;
   font-family: Helvetica;
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   left: 54%;
-  transform: translateX(-118%);
-  bottom: 9%;
+  transform: translateX(-60%);
+  bottom: 8%;
   padding: 1%;
 }
+
 
 /*3rd part of 4th part*/
 
@@ -378,8 +380,8 @@ nav {
   left: 10%;
 }
 .advocacy-image img {
-  width: 135%; /* Makes the image responsive */
-  height: 178px;
+  width: 100%; /* Makes the image responsive */
+  height: 100%;
 }
 
 .advocacy p {
@@ -395,25 +397,26 @@ nav {
 }
 
 .read-more-advocacy {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: #354463;
-  background-color: #c1f7d5;
-  border: 0.2rem solid #c1f7d5;
-  border-radius: 1rem;
-  text-align: center;
-  margin-left: 3rem;
-  margin-right: 0rem;
-  font-weight: bolder;
-  font: normal normal bold 16px/20px Helvetica;
-  font-family: Helvetica;
-  font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
-  left: 54%;
-  transform: translateX(-118%);
-  bottom: 9%;
-  padding: 1%;
+  display: flex
+  ;
+      justify-content: center;
+      text-decoration: none;
+      color: #354463;
+      background-color: #c1f7d5;
+      border: 0.2rem solid #c1f7d5;
+      border-radius: 1rem;
+      text-align: center;
+      margin-left: 0rem;
+      font-weight: bolder;
+      font: normal normal bold 16px / 20px Helvetica;
+      font-family: Helvetica;
+      font-family: Helvetica;
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      left: 54%;
+      transform: translateX(-60%);
+      bottom: 8%;
+      padding: 1%;
 }
 
 
@@ -557,15 +560,16 @@ nav {
 
 .climate-change>.container>.right>.box4>.icons{
 
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  gap: 14px;
-  position: absolute;
-  right: -25%;
+  display: flex
+  ;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      position: absolute;
+      margin-left: 75%;
+    
+      width: 10%;
 }
 
 .climate-change>.container>.right>.box4>.icons>span{
@@ -954,7 +958,7 @@ section subscribe */
   background-color: #283652;
   color: white;
   margin-right: -60%;
-  margin-top: -11%;
+  margin-top: -16%;
 }
 
 
@@ -1053,7 +1057,7 @@ align-self: center;
   padding-left: 2%;
   font-family: "flood-std";
   color: #354463;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
  
 }
 
@@ -1532,6 +1536,7 @@ opacity: 1;
   grid-row: 1/2;
   align-self: left;
   text-align: left;
+  margin-right:0%;
 }
 
 .plant-and-event-button{
@@ -2236,8 +2241,8 @@ padding-right: 3%;
 .plant-and-latest-news-button{
 
 background-repeat: no-repeat;
-  max-width: 555px;
-width: 129%;
+  max-width: 100%;
+width: 98%;
 margin-bottom: 0rem;
 margin-left: 0%;
 background-size: 112%;
