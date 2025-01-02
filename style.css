@@ -1940,7 +1940,7 @@ grid-row: 3/4;
     position: absolute;
   }
   .read-more-tree {
-    transform: translateX(-108%);
+    transform: translateX(-64%);
     left: 39%;
     padding: 1% 4%;
     bottom: 7%;
@@ -2000,10 +2000,11 @@ grid-row: 3/4;
 
 
 .read-more-education{
-  transform: translateX(-108%);
+ 
     left: 39%;
     padding: 1% 4%;
     bottom: 7%;
+    transform: translateX(-64%);
 }
 
 
@@ -2060,7 +2061,7 @@ grid-row: 3/4;
 
 
 .read-more-advocacy{
-  transform: translateX(-108%);
+  transform: translateX(-64%);
   left: 39%;
   padding: 1% 4%;
   bottom: 7%;
