@@ -1524,7 +1524,7 @@ opacity: 1;
 
   grid-template-columns: 2.5rem 1fr 1fr 2.5rem;
   grid-template-rows: 18rem 30rem 30rem ;
-
+  position: relative;
 }
 
 .action-heading{
@@ -1541,10 +1541,10 @@ opacity: 1;
 
 .event{
   grid-column: 3/4;
-  margin-left: 124%;
+  margin-left: 111%;
   margin-right: -61%;
   margin-top: 0%;
-  
+  position: absolute;
 }
 
 
@@ -1556,6 +1556,7 @@ opacity: 1;
 .earth-1 p{
   line-height: 157%;
   text-align: left;
+  margin-left: 10%;
 }
 .earth-1 h3{
   text-align: left;
@@ -1563,23 +1564,51 @@ opacity: 1;
   margin-left: 10%;
 }
 
-
-
 .plant-and-latest-news-button{
 grid-column: 3/4;
 grid-row: 3/4;
 background-repeat: no-repeat;
 max-width: 293px;
+margin-left: 10%;
 }
 
 
 .news-event{
-  margin-right: 124%;
-  margin-left: -61%;
+  margin-right: 0;
+  margin-left: -69%;
   margin-top: 0%;
+  position: absolute;
+  transform: translateX(-81%);
 }
 
-
+.read-more-earth{
+  padding: 4%;
+    padding-right: 4%;
+    padding-left: 4%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-right: 6%;
+  padding-left: 6%;
+  justify-content: center;
+  text-decoration: none;
+  color: #354463;
+  background-color: #c1f7d5;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 2rem;
+  text-align: center;
+  font-weight: bolder;
+  font: normal normal bold 16px/20px Helvetica;
+    font-family: Helvetica;
+  font-family: Helvetica;
+  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: -18%;
+  left: -6%;
+  transform: translateX(-17%);
+  margin-left: 24%;
+  position: absolute;
+  margin-right: 25%;
+}
 
 .earth-2{
   grid-column: 2/3;
@@ -2139,6 +2168,7 @@ grid-row: 3/4;
 
   grid-template-columns: 2.5rem 1fr 1fr 2.5rem;
   grid-template-rows: 18rem 45rem 45rem ;
+  position: relative;
 
 }
 
@@ -2192,9 +2222,13 @@ margin-top: 0%;
     margin-left: 10%;
 }
 .read-more-earth{
-transform: translateX(-209%);
-margin-left: 71%;
-border-radius: 3rem;
+transform: translateX(-31%);
+
+border-radius: 2rem;
+position: absolute;
+padding: 2%;
+padding-right: 3%;
+    padding-left: 3%;
 }
 
 
@@ -2212,9 +2246,9 @@ background-repeat: no-repeat;
 margin-top: 0%;
 }
 
-.news-event{
-  margin-left: 110%;
-    margin-right: -37%;
+.news-event {
+  margin-left: -70%;
+  margin-right: 0%;
 }
 
 .plant-and-latest-news-button{
@@ -2247,10 +2281,7 @@ margin-left: 10%;
     line-height: 100%;
     margin-left: 10%;
 }
-.news-event {
-  margin-left: -96%;
-  margin-right: 157%;
-}
+
 
 
 
