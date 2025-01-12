@@ -411,6 +411,7 @@ nav {
   grid-template-columns: 2rem 1fr 30px 1fr 2rem;
   grid-template-rows: 13rem 13rem 13rem 13rem;
   color: #283652;
+  position: relative;
 }
 
 .heading{
@@ -474,13 +475,14 @@ margin-top: 10%;
   left: 25%;
   right: 25%;
   font: normal normal normal 14px/17px Helvetica;
-  margin-top: -15%;
+
   text-align: center;
   grid-column: 2/3;
   grid-row: 2/3;
   margin-top: 100%;
 
 }
+.t1{}
 
 .our-team-img2{
 
@@ -1381,7 +1383,7 @@ opacity: 1;
   grid-column: 3/4;
   grid-row: 2/3;
   margin-top: 0%;
-  align-self: normal;
+  align-self: center;
 }
 .stop-climate-change{
   grid-column: 4/5;
@@ -1750,6 +1752,7 @@ opacity: 1;
   .learn-more{
     grid-row: 1/3;
     grid-column: 4/5;
+    align-self: center;
   }
   
   
@@ -1783,4 +1786,11 @@ opacity: 1;
 
 
   /*End of mobile desktop*/
+}
+
+
+@media screen and (min-width: 1400px) {
+.person-title{
+  margin-top: 66%;
+}
 }
