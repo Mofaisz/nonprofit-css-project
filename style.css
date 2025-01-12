@@ -155,6 +155,7 @@ nav {
   grid-row: 1/2;
   align-self: center;
   margin-left: -16%;
+  margin-top: 25%;
 }
 .container-1 > h3 {
   margin-bottom: 10%;
@@ -706,8 +707,8 @@ margin-left: 23%;
   position: absolute;
   bottom: -30%;
   left: 38%;
-  transform: translateX(-30%);
-  bottom: -16%;
+  transform: translateX(-24%);
+  bottom: -27%;
 }
 
 
@@ -834,6 +835,7 @@ section subscribe */
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 
 .subscribe>.heading{
@@ -863,7 +865,7 @@ section subscribe */
 }
 
 .subscribe>.form>button{
-  width: 39%;
+  width: 36%;
   height: 40px;
   border-radius: 30px;
   border: 0;
@@ -873,6 +875,8 @@ section subscribe */
   color: white;
   margin-right: -60%;
   margin-top: -20%;
+  position: absolute;
+  bottom: 20%;
 }
 
 
@@ -1586,9 +1590,8 @@ opacity: 1;
 .subscribe>.form>button{
   width: 25%;
     height: 48px;
-  margin-right: -7%;
-  margin-left: -31%;
-  margin-top: 10%;
+    left: 64%;
+    bottom: 17%;
 }
 
 
@@ -1872,7 +1875,7 @@ opacity: 1;
     text-align: left;
     margin-top: 56%;
     padding: 0%;
-    margin-left: -67%;
+    margin-left: -57%;
   }
 
   .tree-image {
@@ -2293,10 +2296,11 @@ opacity: 1;
 }
 
 .subscribe>.form>button{
-  width: 25%;
-  height: 48px;
+  width: 15%;
+  height: 43px;
   margin-left: 10%;
-    margin-top: 0%;
+  margin-top: 0%;
+  bottom: 43%;
 }
 
 /*Last section footer*/
